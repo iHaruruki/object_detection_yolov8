@@ -4,7 +4,7 @@
   <name>object_detection_yolov8</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="haaruki@todo.todo">haaruki</maintainer>
+  <maintainer email="haruki.isono861@gmail.com">haaruki</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>
