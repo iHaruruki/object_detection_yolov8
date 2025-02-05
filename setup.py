@@ -15,12 +15,12 @@ setup(
     zip_safe=True,
     maintainer='haaruki',
     maintainer_email='haaruki@todo.todo',
-    description='TODO: Package description',
+    description='ROS2 package for object detection using YOLOv8',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'object_detection = object_detection_yolov8.yolov8_node:main',
+            'object_detection_node = object_detection_yolov8.yolov8_node:main',
         ],
     },
 )
