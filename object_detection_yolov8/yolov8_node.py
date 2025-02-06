@@ -12,7 +12,7 @@ class ObjectDetectionNode(Node):
         # 画像トピックのサブスクライバー（例：/image_raw）
         self.subscription = self.create_subscription(
             Image,
-            '/image_raw',  # 実際の環境に合わせてトピック名を変更
+            '/camera/color/image_raw',  # 実際の環境に合わせてトピック名を変更
             self.image_callback,
             10)
         self.subscription  # 参照保持
