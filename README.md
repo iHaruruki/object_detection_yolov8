@@ -6,6 +6,10 @@ flowchart LR
     A(["/usb_cam"]) ==> B["/image_raw"] ==> C(["/object_detection_node"])
 ```
 ## Dependency
+    sudo apt install ros-humble-info-manager
+
+    sudo apt install ros-humble-publisher
+
 ## Setup
     cd ~/ros2_ws/src  #Go to ros workspace
 
